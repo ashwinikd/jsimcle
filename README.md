@@ -1,7 +1,7 @@
 # Java Simple In-Memory Caching Library
 
 ## Introduction
-jSincl *(pronounced j-sincle (as in simple))* is a minimal in memory caching utility written for Java. It provides fast and reliable chache store for multithreaded concurrent systems.
+jSimcl *(pronounced j-simcle (as in simple))* is a minimal in memory caching utility written for Java. It provides fast and reliable chache store for multithreaded concurrent systems.
 
 ## Features
 * Fast in memory cache
@@ -17,7 +17,7 @@ jSincl *(pronounced j-sincle (as in simple))* is a minimal in memory caching uti
 ### Install
 Clone the repository using:
 
-`git clone https://github.com/ashwinikd/jsincle`
+`git clone https://github.com/ashwinikd/jsimcle`
 
 or download the zip file. Then run `mvn clean install -DskipTests -DperformRelease`
 
