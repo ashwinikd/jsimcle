@@ -32,3 +32,18 @@ If you are using maven in your project then use following dependency:
 ```
 
 Or add the jar in target directory as external library.
+
+## Usage
+
+```java
+//Get cache manager
+CacheManager cache = CacheManager.getInstance();
+//Add key with infinite TTL
+cache.put("foo", "i will not expire");
+//Add key which expires in 1 minute
+cache.put("bar", "i will expire in 60 seconds", 60);
+//Delete a key
+cache.clear("foo");
+//Clear all cache data;
+cache.clear();
+```
