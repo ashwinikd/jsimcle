@@ -1,8 +1,9 @@
-package com.ashwinikd.jsincl;
+package com.ashwinikd.jsimcl;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import com.ashwinikd.jsimcl.CacheValue;
 import junit.framework.TestCase;
 
 public class CacheValueTest extends TestCase

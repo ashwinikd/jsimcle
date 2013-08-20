@@ -1,4 +1,4 @@
-package com.ashwinikd.jsincl;
+package com.ashwinikd.jsimcl;
 
 import java.util.Collections;
 import java.util.Map;

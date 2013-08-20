@@ -1,4 +1,4 @@
-package com.ashwinikd.jsincl;
+package com.ashwinikd.jsimcl;
 
 import java.util.Date;
 import java.util.Random;
@@ -7,6 +7,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import org.apache.commons.math.stat.descriptive.SummaryStatistics;
 import org.apache.commons.math.stat.descriptive.rank.Median;
+import com.ashwinikd.jsimcl.CacheManager;
 import junit.framework.TestCase;
 
 public class ConcurrencyTest extends TestCase

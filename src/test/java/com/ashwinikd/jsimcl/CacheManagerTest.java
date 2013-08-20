@@ -1,5 +1,6 @@
-package com.ashwinikd.jsincl;
+package com.ashwinikd.jsimcl;
 
+import com.ashwinikd.jsimcl.CacheManager;
 import junit.framework.TestCase;
 
 public class CacheManagerTest extends TestCase
